@@ -16,8 +16,7 @@ s.source = { :git => 'https://github.com/jilei6/RequestFrameWork.git', :tag => s
 s.platform     = :ios , '8.0'
 s.license= { :type => "MIT", :file => "LICENSE" }
 s.requires_arc = true
-s.frameworks   = 'UIKit','Foundation', 'CFNetwork'
-s.libraries = 'sqlite3.0'
-s.vendored_frameworks = 'RequestSDK/RequestSDK.framework'
+s.library = 'sqlite3.0'
+s.vendored_framework = 'RequestSDK/RequestSDK.framework'
 
 end
