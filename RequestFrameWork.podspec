@@ -13,8 +13,8 @@ s.authors = { 'jaren' => '434450279@qq.com' }
 #资源路径
 s.source = { :git => 'https://github.com/jilei6/RequestFrameWork.git', :tag => s.version }
 
-s.platform     = :ios
-s.license          = 'MIT'
+s.platform     = :ios , '8.0'
+s.license= { :type => "MIT", :file => "LICENSE" }
 s.requires_arc = true
 s.frameworks   = 'UIKit','Foundation', 'CFNetwork'
 s.libraries = 'sqlite3.0'
