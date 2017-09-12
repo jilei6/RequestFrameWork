@@ -17,6 +17,6 @@ s.platform     = :ios , '8.0'
 
 s.requires_arc = true
 s.library = 'sqlite3.0'
-s.vendored_framework = 'RequestSDK/RequestSDK.framework'
+s.vendored_framework = 'RequestSDK.framework'
 
 end
