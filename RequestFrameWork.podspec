@@ -14,7 +14,7 @@ s.authors = { 'jaren' => '434450279@qq.com' }
 s.source = { :git => 'https://github.com/jilei6/RequestFrameWork.git', :tag => s.version }
 
 s.platform     = :ios , '8.0'
-s.license= { :type => "MIT", :file => "LICENSE" }
+
 s.requires_arc = true
 s.library = 'sqlite3.0'
 s.vendored_framework = 'RequestSDK/RequestSDK.framework'
