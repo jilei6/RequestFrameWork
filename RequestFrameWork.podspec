@@ -11,7 +11,7 @@ s.homepage = 'http://www.jilei.site'
 #作者
 s.authors = { 'jaren' => '434450279@qq.com' }
 #资源路径
-s.source = { :git => 'https://github.com/jilei6/RequestFrameWork.git', :tag => s.version }
+s.source = { :git => 'https://github.com/jilei6/RequestFrameWork.git', :tag => "#{s.version}" }
 
 s.platform     = :ios
 
